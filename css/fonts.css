@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNovaRegular/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNovaRegular/ProximaNova-Regular.eot?iefix') format('eot'),
+       url('../fonts/ProximaNovaRegular/ProximaNova-Regular.woff2') format('woff2'),
+       url('../fonts/ProximaNovaRegular/ProximaNova-Regular.woff') format('woff'),
+       url('../fonts/ProximaNovaRegular/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNovaSemibold/ProximaNova-Semibold.eot');
+  src: url('../fonts/ProximaNovaSemibold/ProximaNova-Semibold.eot?iefix') format('eot'),
+       url('../fonts/ProximaNovaSemibold/ProximaNova-Semibold.woff2') format('woff2'),
+       url('../fonts/ProximaNovaSemibold/ProximaNova-Semibold.woff') format('woff'),
+       url('../fonts/ProximaNovaSemibold/ProximaNova-Semibold.ttf'), format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNovaBold/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNovaBold/ProximaNova-Bold.eot?iefix') format('eot'),
+       url('../fonts/ProximaNovaBold/ProximaNova-Bold.woff2') format('woff2'),
+       url('../fonts/ProximaNovaBold/ProximaNova-Bold.woff') format('woff'),
+       url('../fonts/ProximaNovaBold/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UbuntuMedium';
+  src: url('../fonts/UbuntuMedium/Ubuntu-Medium.eot');
+  src: url('../fonts/UbuntuMedium/Ubuntu-Medium.eot?iefix') format('eot'),
+       url('../fonts/UbuntuMedium/Ubuntu-Medium.woff2') format('woff2'),
+       url('../fonts/UbuntuMedium/Ubuntu-Medium.woff') format('woff'),
+       url('../fonts/UbuntuMedium/Ubuntu-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}

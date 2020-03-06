@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile PSD Template</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,
+                                              500&display=swap" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Sprites -->
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <svg style="display: none;">
+      <symbol id="linkedin" viewBox="0 0 24 24">
+        <g>
+          <path d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"/><path d="m.396 7.977h4.976v16.023h-4.976z"/><path d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"/>
+        </g>
+      </symbol>
+      <symbol id="facebook" viewBox="0 0 512 512">
+        <g>
+          <path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h236.574219v-198h-66.5v-77.5h66.5v-57.035156c0-66.140625 40.378906-102.140625 99.378906-102.140625 28.257813 0 52.542969 2.105469 59.621094 3.046875v69.128906h-40.683594c-32.101562 0-38.316406 15.253906-38.316406 37.640625v49.359375h76.75l-10 77.5h-66.75v198h121.574219c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm0 0"/>
+        </g>
+      </symbol>
+      <symbol id="twitter" viewBox="-21 -81 681.33464 681">
+        <g>
+          <path d="m200.964844 515.292969c241.050781 0 372.871094-199.703125 372.871094-372.871094 0-5.671875-.117188-11.320313-.371094-16.9375 25.585937-18.5 47.824218-41.585937 65.371094-67.863281-23.480469 10.441406-48.753907 17.460937-75.257813 20.636718 27.054687-16.230468 47.828125-41.894531 57.625-72.488281-25.320313 15.011719-53.363281 25.917969-83.214844 31.808594-23.914062-25.472656-57.964843-41.402344-95.664062-41.402344-72.367188 0-131.058594 58.6875-131.058594 131.03125 0 10.289063 1.152344 20.289063 3.398437 29.882813-108.917968-5.480469-205.503906-57.625-270.132812-136.921875-11.25 19.363281-17.742188 41.863281-17.742188 65.871093 0 45.460938 23.136719 85.605469 58.316407 109.082032-21.5-.660156-41.695313-6.5625-59.351563-16.386719-.019531.550781-.019531 1.085937-.019531 1.671875 0 63.46875 45.171875 116.460938 105.144531 128.46875-11.015625 2.996094-22.605468 4.609375-34.558594 4.609375-8.429687 0-16.648437-.828125-24.632812-2.363281 16.683594 52.070312 65.066406 89.960937 122.425781 91.023437-44.855469 35.15625-101.359375 56.097657-162.769531 56.097657-10.5625 0-21.003906-.605469-31.2617188-1.816407 57.9999998 37.175781 126.8710938 58.871094 200.8867188 58.871094"/>
+        </g>
+      </symbol>
+      <symbol id="home" viewBox="0 0 512.001 512.001">
+        <g>
+          <path d="M503.402,228.885L273.684,19.567c-10.083-9.189-25.288-9.188-35.367-0.001L8.598,228.886
+          c-8.077,7.36-10.745,18.7-6.799,28.889c3.947,10.189,13.557,16.772,24.484,16.772h36.69v209.721
+          c0,8.315,6.742,15.057,15.057,15.057h125.914c8.315,0,15.057-6.741,15.057-15.057V356.932h74.002v127.337
+          c0,8.315,6.742,15.057,15.057,15.057h125.908c8.315,0,15.057-6.741,15.057-15.057V274.547h36.697
+          c10.926,0,20.537-6.584,24.484-16.772C514.147,247.585,511.479,236.246,503.402,228.885z"/>
+        </g>
+        <g>
+          <path d="M445.092,42.73H343.973l116.176,105.636v-90.58C460.149,49.471,453.408,42.73,445.092,42.73z"/>
+        </g>
+      </symbol>
+      <symbol id="search" viewBox="0 0 515.558 515.558">
+        <g>
+          <path d="m378.344 332.78c25.37-34.645 40.545-77.2 40.545-123.333 0-115.484-93.961-209.445-209.445-209.445s-209.444 93.961-209.444 209.445 93.961 209.445 209.445 209.445c46.133 0 88.692-15.177 123.337-40.547l137.212 137.212 45.564-45.564c0-.001-137.214-137.213-137.214-137.213zm-168.899 21.667c-79.958 0-145-65.042-145-145s65.042-145 145-145 145 65.042 145 145-65.043 145-145 145z"/>
+        </g>
+      </symbol>
+      <symbol id="call" viewBox="0 0 348.077 348.077">
+        <g>
+          <path d="M340.273,275.083l-53.755-53.761c-10.707-10.664-28.438-10.34-39.518,0.744l-27.082,27.076
+          c-1.711-0.943-3.482-1.928-5.344-2.973c-17.102-9.476-40.509-22.464-65.14-47.113c-24.704-24.701-37.704-48.144-47.209-65.257
+          c-1.003-1.813-1.964-3.561-2.913-5.221l18.176-18.149l8.936-8.947c11.097-11.1,11.403-28.826,0.721-39.521L73.39,8.194
+          C62.708-2.486,44.969-2.162,33.872,8.938l-15.15,15.237l0.414,0.411c-5.08,6.482-9.325,13.958-12.484,22.02
+          C3.74,54.28,1.927,61.603,1.098,68.941C-6,127.785,20.89,181.564,93.866,254.541c100.875,100.868,182.167,93.248,185.674,92.876
+          c7.638-0.913,14.958-2.738,22.397-5.627c7.992-3.122,15.463-7.361,21.941-12.43l0.331,0.294l15.348-15.029
+          C350.631,303.527,350.95,285.795,340.273,275.083z"/>
+        </g>
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 256 256">
+        <g>
+          <polygon points="225.813,48.907 128,146.72 30.187,48.907 0,79.093 128,207.093 256,79.093    "/>
+        </g>
+      </symbol>
+    </svg>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__social">
+            <a href="#" class="header__logo" target="_blank">Profile</a>
+            <ul class="social">
+              <li>
+                <a href="#" class="social__link" target="_blank">
+                  <svg class="social__item">
+                    <use xlink:href="#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social__link" target="_blank">
+                  <svg class="social__item">
+                    <use xlink:href="#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social__link" target="_blank">
+                  <svg class="social__item">
+                    <use xlink:href="#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__contact">
+            <div class="email">admin@youremail.com.au</div>
+            <div class="call">
+              <div class="call__btn">
+                <svg class="call__icon">
+                  <use xlink:href="#call"></use>
+                </svg>
+              </div>
+              <div class="call__number">1300 555 555</div>
+            </div>
+          </div>
+          <div class="header__content">
+
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <svg class="nav__icon">
+                    <use xlink:href="#home"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Courses</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Our portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Enrol now</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu-icon-wrapper">
+            <span class="menu-icon"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--/ Header  -->
+
+    <!-- Main -->
+
+    <main class="main">
+      <!-- Banner -->
+      <section class="banner">
+        <div class="banner__text">
+          <h1>Reach your limits</h1>
+          <h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor
+          </h3>
+        </div>
+        <div class="banner__inner"></div>
+      </section>
+      <!--/ Banner -->
+
+      <!-- Enrole -->
+      <section class="enrole">
+        <div class="container">
+          <div class="enrole__inner">
+            <div class="enrole__text">
+              <p>
+                Choose from a range of great products and recognised certificate and
+                diploma courses. <a href="#" class="enrole__link"> Enrol Online Now</a>
+              </p>
+            </div>
+            <button class="enrole__btn">
+              <svg class="enrole__icon">
+                <use xlink:href="#arrow"></use>
+              </svg>
+            </button>
+            <div class="contact">
+              <div class="contact__inner">
+                <h2>Contact us Today</h2>
+                <h4>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                  do eiusmod tempor
+                </h4>
+                <form action="#" class="contact__form">
+                  <label for="name">Your Name</label>
+                  <input type="text" class="contact__name" name="name">
+                  <label for="number">Contact Number</label>
+                  <input type="text" class="contact__number" name="number">
+                </form>
+                <button class="btn contact__btn">
+                  Call me back
+                  <svg class="btn__arrow">
+                    <use xlink:href="#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ Enrole -->
+
+      <!-- Advantages -->
+      <section class="advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <div class="advantage">
+              <div class="advantage__inner">
+                <h2 class="advantage__title">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </h2>
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                  pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                  culpa qui officia
+                </p>
+                <button class="btn btn--blue">
+                  Read more
+                  <svg class="btn__arrow">
+                    <use xlink:href="#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="advantage">
+              <div class="advantage__inner">
+                <h2 class="advantage__title">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing
+                </h2>
+                <ul class="advantage__list">
+                  <li>
+                    <div class="advantage__item">
+                      Lorem ipsum dolor sit amet, consectetur
+                    </div>
+                  </li>
+                  <li>
+                  <div class="advantage__item">
+                      Lorem ipsum dolor sit amet, consectetur
+                      adipisicing elit, sed do eiusmod tempor
+                    </div>
+                  </li>
+                  <li>
+                    <div class="advantage__item">
+                      Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                      veniam, quis nostrud
+                    </div>
+                  </li>
+                  <li>
+                    <div class="advantage__item">
+                      Duis aute irure dolor in reprehenderit in
+                      Excepteur sint occaecat cupidatat non
+                    </div>
+                  </li>
+                  <li>
+                    <div class="advantage__item">
+                      proident, sunt in culpa qui officia deserunt mollit anim id
+                      est laborum
+                    </div>
+                  </li>
+                </ul>
+                <button class="btn">
+                  Read more
+                  <svg class="btn__arrow">
+                    <use xlink:href="#arrow"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="advantage">
+              <div class="video video--big">
+                <div class="video__inner">
+                  <img src="img/videos/01.jpg" alt="video">
+                  <div class="video__cont">
+                    <div class="play__icon"></div>
+                    <div class="video__text">Hear what our students have to say!</div>
+                  </div>
+                </div>
+              </div>
+              <div class="advantage__inner">
+                <p class="advantage__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ Advantages  -->
+
+      <!-- Offers -->
+      <section class="offers">
+        <div class="container">
+          <div class="offers__inner">
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Accounting Courses</h4>
+                <h5 class="offers__subtitle">Our Institute provides engaging and</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Natially Accredited</h4>
+                <h5 class="offers__subtitle">Lorem ipsum dolor sit amet, consectetur</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Special Offer</h4>
+                <h5 class="offers__subtitle">Lorem ipsum dolor sit amet, consectetur</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Accounting Courses</h4>
+                <h5 class="offers__subtitle">We provides engaging and carefully</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Natially Accredited</h4>
+                <h5 class="offers__subtitle">Lorem ipsum dolor sit amet, consectetur</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="offers__item">
+              <div class="offers__text">
+                <h4 class="offers__title">Special Offer</h4>
+                <h5 class="offers__subtitle">Lorem ipsum dolor sit amet, consectetur</h5>
+              </div>
+              <button class="search">
+                <svg class="search__icon">
+                  <use xlink:href="#search"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--/ Offers  -->
+
+      <!-- Content -->
+
+      <section class="content">
+        <div class="container">
+          <div class="content__inner">
+            <section class="content__item">
+              <header class="content__header">
+                <h3 class="content__title">Latest news</h3>
+              </header>
+              <article class="article">
+                <h4 class="article__title">
+                  Looking to career change into Bookkeeping or Financial Planning?
+                </h4>
+                <h5 class="article__subtitle">
+                  Changing your career at any age need not be a daunting prospect,
+                  it can be...
+                </h5>
+                <time class="article__time">October 8th, 2014</time>
+              </article>
+              <article class="article">
+                <h4 class="article__title">
+                  Looking to career change into Bookkeeping or Financial Planning?
+                </h4>
+                <h5 class="article__subtitle">
+                  Changing your career at any age need not be a daunting prospect,
+                  it can be...
+                </h5>
+                <time class="article__time">October 8th, 2014</time>
+              </article>
+            </section>
+            <section class="content__item">
+              <header class="content__header">
+                <h3 class="content__title">Our Blog</h3>
+              </header>
+              <article class="article">
+                <h4 class="article__title">
+                  Looking to career change into Bookkeeping or Financial Planning?
+                </h4>
+                <h5 class="article__subtitle">
+                  Changing your career at any age need not be a daunting prospect,
+                  it can be...
+                </h5>
+                <time class="article__time">October 8th, 2014</time>
+              </article>
+              <article class="article">
+                <h4 class="article__title">
+                  Looking to career change into Bookkeeping or Financial Planning?
+                </h4>
+                <h5 class="article__subtitle">
+                  Changing your career at any age need not be a daunting prospect,
+                  it can be...
+                </h5>
+                <time class="article__time">October 8th, 2014</time>
+              </article>
+            </section>
+            <section class="content__item">
+              <header class="content__header">
+                <h3 class="content__title">Videos</h3>
+              </header>
+              <div class="videos-wrap">
+                <div class="video video--sm">
+                  <div class="video__inner">
+                    <img src="img/videos/02.jpg" alt="video">
+                    <div class="video__cont">
+                      <div class="play__icon"></div>
+                      <div class="video__text">Thinking of stydying online?</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="video video--sm">
+                  <div class="video__inner">
+                    <img src="img/videos/03.jpg" alt="video">
+                    <div class="video__cont">
+                      <div class="play__icon"></div>
+                      <div class="video__text">Career options in Financial Planning</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!--/ Content  -->
+    </main>
+    <!--/ Main  -->
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer__body">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__section footer__about">
+              <h5 class="footer__title">About us</h5>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    Financial Planning Courses
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    Diploma Financial Planning
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    RG146 Compliant Life Insurance
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    RG146 Compliant Superannuation
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    RG146 Compliant Investments
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    RG146 Compliant SMSF (Accountants Exemption)
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    Accounting & Bookkeeping Courses
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    Certificate IV in AccountingCertificate IV in Bookkeeping
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    BAS and Payroll
+                  </a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">
+                    MYOB TrainingDual Qualifications
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__section footer__info">
+              <h5 class="footer__title">Information</h5>
+              <ul class="footer__list">
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Goverment funding
+                  </a>
+                </li>
+
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Enrole now
+                  </a>
+                </li>
+
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Why us
+                  </a>
+                </li>
+
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Student info
+                  </a>
+                </li>
+
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Blog
+                  </a>
+                </li>
+
+                <li class="footer__item footer__item--mar">
+                  <a href="#" class="footer__link">
+                    Contact us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__section footer__contact">
+              <h5 class="footer__title">Contact us</h5>
+              <div class="contact__wrap">
+                <ul class="footer__list footer__list--bot-mar">
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Phone 1300 555 555
+                    </span>
+                  </li>
+
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Fax 039614 5555
+                    </span>
+                  </li>
+
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Email admin@youremail.com
+                    </span>
+                  </li>
+                </ul>
+
+                <ul class="footer__list ">
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Postal Address
+                    </span>
+                  </li>
+
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      28 Postal Street
+                    </span>
+                  </li>
+
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Suburb, Melburn
+                    </span>
+                  </li>
+
+                  <li class="footer__item footer__item--mar">
+                    <span class="footer__text">
+                      Australia
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright__inner">
+            <div class="copyright__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="call">
+              <div class="call__btn">
+                <svg class="call__icon">
+                  <use xlink:href="#call"></use>
+                </svg>
+              </div>
+              <div class="call__number">1300 555 555</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/ Footer  -->
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    <!-- Livereload -->
+    <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+  </body>
+</html>
